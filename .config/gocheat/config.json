@@ -23,6 +23,14 @@
     {
       "title": "stop: unlink /run/runit/service/{service_name}",
       "tag": "runit"
+    },
+    {
+      "title": "Create sym:\" stow .\" [IN ~/dotfiles] ",
+      "tag": "Dots stow"
+    },
+    {
+      "title": "Delete sym: \"stow -D\" [IN ~/dots]",
+      "tag": "Dots stow"
     }
   ],
   "styles": {

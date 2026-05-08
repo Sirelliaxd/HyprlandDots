@@ -5,7 +5,7 @@ end
 
 # --- ALIASES -------------------------------------------
 
-alias ls 'eza -a --icons'
+alias ls 'eza --icons'
 alias matrix 'cmatrix -s 96'
 alias anime ani-cli
 alias ff fastfetch
@@ -13,7 +13,7 @@ alias hyprconf 'nvim ~/.config/hypr/modules/'
 alias taskmanager htop
 alias speedtest cloudflare-speed-cli
 alias cheat gocheat
-alias tree 'eza -a --tree -L 2 --ignore-glob=.git'
+alias tree 'eza --tree -L 2 --ignore-glob=.git'
 
 set -x EDITOR nvim
 
