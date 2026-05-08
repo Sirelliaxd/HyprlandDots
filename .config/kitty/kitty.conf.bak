@@ -1,0 +1,23 @@
+include colors/colors.conf
+
+#Font
+# font_family	JetBrainsMono Nerd Font Mono
+font_size	11
+
+#Shell
+shell 		fish
+
+#Display
+url_style	curly
+
+#Cursor
+cursor_shape	block
+cursor_trail	3
+
+
+# BEGIN_KITTY_FONTS
+font_family      family='JetBrainsMono Nerd Font Mono' postscript_name=JetBrainsMonoNFM-Regular
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+# END_KITTY_FONTS

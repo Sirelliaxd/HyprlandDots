@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "title": "Clipboard: Win + X",
+      "tag": "desktop"
+    },
+    {
+      "title": "move: h(left) j(down) k(up) l(right) ",
+      "tag": "vim"
+    },
+    {
+      "title": "emoji: Win + .",
+      "tag": "Desktop"
+    },
+    {
+      "title": "undo: u (last command) U (whole line)",
+      "tag": "vim"
+    },
+    {
+      "title": "start: ln -s /etc/runit/sv/{service} /run/runit/service",
+      "tag": "runit"
+    },
+    {
+      "title": "stop: unlink /run/runit/service/{service_name}",
+      "tag": "runit"
+    }
+  ],
+  "styles": {
+    "subtext": "#6c7086",
+    "accent": "#b4befe"
+  }
+}
