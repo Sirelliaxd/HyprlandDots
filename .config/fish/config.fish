@@ -14,6 +14,8 @@ alias taskmanager htop
 alias speedtest cloudflare-speed-cli
 alias cheat gocheat
 alias tree 'eza --tree -L 2 --ignore-glob=.git'
+alias cppformatgoogle '~/.local/share/nvim/mason/bin/clang-format --style Google --dump-config > .clang-format'
+alias cppformatGNU '~/.local/share/nvim/mason/bin/clang-format --style GNU --dump-config > .clang-format'
 
 set -x EDITOR nvim
 
