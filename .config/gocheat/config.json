@@ -31,6 +31,10 @@
     {
       "title": "Delete sym: \"stow -D\" [IN ~/dots]",
       "tag": "Dots stow"
+    },
+    {
+      "title": "Show/Hide terminal nvim: Ctrl + /",
+      "tag": "vim"
     }
   ],
   "styles": {

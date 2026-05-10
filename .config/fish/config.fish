@@ -10,12 +10,13 @@ alias matrix 'cmatrix -s 96'
 alias anime ani-cli
 alias ff fastfetch
 alias hyprconf 'nvim ~/.config/hypr/modules/'
-alias taskmanager htop
+alias taskmanager btop
 alias speedtest cloudflare-speed-cli
 alias cheat gocheat
 alias tree 'eza --tree -L 2 --ignore-glob=.git'
 alias cppformatgoogle '~/.local/share/nvim/mason/bin/clang-format --style Google --dump-config > .clang-format'
 alias cppformatGNU '~/.local/share/nvim/mason/bin/clang-format --style GNU --dump-config > .clang-format'
+alias typtea 'typtea start --duration 60 --lang'
 
 set -x EDITOR nvim
 
@@ -23,7 +24,7 @@ set -x EDITOR nvim
 set PATH $PATH /home/stella/.local/bin
 
 #yazi
-function y
+function yazi
     set tmp (mktemp -t "yazi-cwd.XXXXXX")
     command yazi $argv --cwd-file="$tmp"
     if read -z cwd <"$tmp"; and [ "$cwd" != "$PWD" ]; and test -d "$cwd"
