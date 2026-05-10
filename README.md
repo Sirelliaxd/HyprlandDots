@@ -23,5 +23,5 @@ sudo pacman -S ttf-jetbrains-mono-nerd ttf-font-awesome noto-fonts-emoji
 - ##### 1.3 cli/optional
 
 ```
-sudo pacman -S gocheat fastfetch eza cmatrix ani-cli cloudflare-speed-cli stow
+sudo pacman -S gocheat fastfetch eza cmatrix ani-cli cloudflare-speed-cli stow bluetui nmtui
 ```

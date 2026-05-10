@@ -17,6 +17,7 @@ alias tree 'eza --tree -L 2 --ignore-glob=.git'
 alias cppformatgoogle '~/.local/share/nvim/mason/bin/clang-format --style Google --dump-config > .clang-format'
 alias cppformatGNU '~/.local/share/nvim/mason/bin/clang-format --style GNU --dump-config > .clang-format'
 alias typtea 'typtea start --duration 60 --lang'
+alias bt bluetui
 
 set -x EDITOR nvim
 
