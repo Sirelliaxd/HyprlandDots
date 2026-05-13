@@ -8,12 +8,14 @@
   // Choose the order of the modules
   "modules-left": [
     "custom/power",
-    "hyprland/workspaces"
+    "hyprland/workspaces",
+    "custom/cava"
   ],
   "modules-center": [
     "hyprland/window"
   ],
   "modules-right": [
+    "cava",
     "bluetooth",
     "pulseaudio",
     "network",
@@ -164,5 +166,9 @@
       "suspend": "systemctl suspend",
       "hibernate": "systemctl hibernate"
     }
+  },
+  "custom/cava": {
+    "format": "{}",
+    "exec": "~/.config/waybar/scripts/cava.sh"
   }
 }
