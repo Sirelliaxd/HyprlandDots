@@ -57,15 +57,17 @@
 
 #network, 
 #tray {
-    padding: 1px 6px;
+    padding: 1px 7px;
 }
 
 #backlight,
-#pulseaudio {
+#pulseaudio,
+#wireplumber {
     padding: 1px 8px;
 }
 
-#pulseaudio {
+#pulseaudio,
+#wireplumber {
     padding-left: 4px;
 }
 

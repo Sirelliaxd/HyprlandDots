@@ -8,40 +8,20 @@
   // Choose the order of the modules
   "modules-left": [
     "custom/power",
-    "hyprland/workspaces",
-    "custom/cava"
+    "hyprland/workspaces"
   ],
   "modules-center": [
     "hyprland/window"
   ],
   "modules-right": [
-    "cava",
     "bluetooth",
-    "pulseaudio",
+    "wireplumber",
     "network",
     "cpu",
     "memory",
     "battery",
     "clock"
   ],
-  // Modules configuration
-  // "sway/workspaces": {
-  //     "disable-scroll": true,
-  //     "all-outputs": true,
-  //     "warp-on-scroll": false,
-  //     "format": "{name}: {icon}",
-  //     "format-icons": {
-  //         "1": "",
-  //         "2": "",
-  //         "3": "",
-  //         "4": "",
-  //         "5": "",
-  //         "urgent": "",
-  //         "focused": "",
-  //         "default": """
-  //     }
-  // },
-  //
   "hyprland/workspaces": {
     "format": "{icon}",
     "on-scroll-down": "hyprctl dispatch workspace e+1",
@@ -120,7 +100,7 @@
     "on-click": "kitty nmtui"
     //    "hormat-alt": "{ifname}: {ipaddr}/{cidr}"
   },
-  "pulseaudio": {
+  "wireplumber": {
     // "scroll-step": 1, // %, can be a float
     "format": "{icon} {format_source}",
     "format-bluetooth": "{icon} {format_source}",
@@ -141,7 +121,7 @@
         ""
       ]
     },
-    "on-click": "kitty pulsemixer"
+    "on-click": "kitty pipemixer"
   },
   "custom/media": {
     "format": "{icon} {text}",
