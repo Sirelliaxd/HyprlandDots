@@ -41,6 +41,7 @@
   padding: 4px 7px;
   margin: 4px 6px 0px;
 }
+ 
 
 /* global paddings */
 #temperature,
@@ -54,6 +55,11 @@
 #cava {
     padding: 1px 7px;
 }
+/*
+#power {
+  padding: 1px 9px;
+}
+*/
 
 #network, 
 #tray {
@@ -135,6 +141,7 @@ tooltip label {
 .popup * {
     box-shadow: none;
     outline: none;
+    background-color: @module-bg;
 }
 
 menu, menu {

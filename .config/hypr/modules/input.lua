@@ -19,6 +19,7 @@ hl.config({
 		},
 	},
 })
+-- TODO: pipipipo do jutra
 
 hl.gesture({
 	fingers = 3,
