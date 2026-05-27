@@ -5,6 +5,6 @@
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
 if [ -z "$DISPLAY" ] && [ "$(tty)" = "/dev/tty1" ]; then
-  exec start-hyprland
-  exec wireplumber
+  exec start-hyprland &
 fi
+export PATH=~/bin:$PATH

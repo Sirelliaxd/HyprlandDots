@@ -41,7 +41,7 @@ hl.window_rule({
 	name = "kitty-opacity",
 	match = { class = "kitty" },
 
-	opacity = "0.85 0.75",
+	-- opacity = "0.85 0.75",
 })
 
 -- { alow opacity on zen }

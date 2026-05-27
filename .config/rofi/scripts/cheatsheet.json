@@ -1,0 +1,54 @@
+{
+  "title": "Hyprland Cheat Sheet",
+  "navigation": {
+    "prev_tab": ["Left", "H"],
+    "next_tab": ["Right", "L"],
+    "scroll_up": ["Up", "K"],
+    "scroll_down": ["Down", "J"]
+  },
+  "tabs": {
+    "Launch Apps": [
+      { "cmd": "MOD + Q", "desc": "Open terminal" },
+      { "cmd": "MOD + R", "desc": "Open application launcher" },
+      { "cmd": "MOD + F", "desc": "Open Zen Browser" },
+      { "cmd": "MOD + E", "desc": "Open Yazi file manager" }
+    ],
+
+    "Window Controls": [
+      { "cmd": "MOD + C", "desc": "Close active window" },
+      { "cmd": "MOD + M", "desc": "Exit Hyprland session" },
+      { "cmd": "F11", "desc": "Toggle fullscreen" },
+      { "cmd": "MOD + V", "desc": "Toggle floating mode" }
+    ],
+
+    "Window Navigation": [
+      {
+        "cmd": "MOD + Arrow Keys/VimBinds",
+        "desc": "Move focus between windows"
+      },
+      { "cmd": "MOD + SHIFT + Arrow Keys/VimBinds", "desc": "Move window" },
+      { "cmd": "MOD + Drag (Right Mouse)", "desc": "Resize window" }
+    ],
+
+    "Workspace Management": [
+      { "cmd": "MOD + 1 → 0", "desc": "Switch workspace (1-10)" },
+      { "cmd": "MOD + SHIFT + 1 → 0", "desc": "Move window to workspace" },
+      { "cmd": "MOD + Scroll", "desc": "Cycle through workspaces" }
+    ],
+
+    "Clipboard & Utilities": [
+      { "cmd": "MOD + X", "desc": "Open clipboard manager" },
+      { "cmd": "MOD + .", "desc": "Open emoji selector" },
+      { "cmd": "MOD + W", "desc": "Reload Waybar" }
+    ],
+
+    "Media & Brightness": [
+      { "cmd": "ALT + up", "desc": "Increase volume" },
+      { "cmd": "ALT + down", "desc": "Decrease volume" },
+      { "cmd": "F8", "desc": "Toggle mute output" },
+      { "cmd": "F7", "desc": "Toggle microphone mute" },
+      { "cmd": "ALT + right", "desc": "Increase brightness" },
+      { "cmd": "ALT + left", "desc": "Decrease brightness" }
+    ]
+  }
+}

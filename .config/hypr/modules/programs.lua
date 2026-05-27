@@ -11,9 +11,11 @@ SecondaryBrowser = "qutebrowser"
 
 -- { AUTOSTART }
 hl.on("hyprland.start", function()
-	hl.exec_cmd("hyprpaper & waybar & mako")
+	hl.exec_cmd("hyprpaper & mako")
 	hl.exec_cmd("udiskie  & nm-applet")
 	hl.exec_cmd("wl-paste --watch cliphist store")
-	hl.exec_cmd("pipewire & pipewire-pulse & wireplumber")
+	hl.exec_cmd("pipewire & pipewire-pulse")
+	hl.exec_cmd("wireplumber")
+	hl.exec_cmd("waybar")
 	--	hl.exec_cmd("nwg-dock-hyprland -d -i 40")
 end)

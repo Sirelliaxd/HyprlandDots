@@ -6,95 +6,95 @@
     "width": 26,
     "padding": {
       "right": 2,
-      "left": 3
-    }
+      "left": 3,
+    },
   },
   "display": {
-    "separator": " "
+    "separator": " ",
   },
   "modules": [
     {
       "key": "             ",
-      "type": "custom"
+      "type": "custom",
     },
     {
       "key": "╭───────────╮",
-      "type": "custom"
+      "type": "custom",
     },
     {
       "key": "│ {#34} user    {#keys}│",
       "type": "title",
-      "format": "{user-name}"
+      "format": "{user-name}",
     },
     {
-      "key": "│ {#34}󰇅 hname   {#keys}│",
+      "key": "│ {#34}󰇅 host    {#keys}│",
       "type": "title",
-      "format": "{host-name}"
+      "format": "{host-name}",
     },
     {
       "type": "command",
       "key": "│ {#34}󱦟 os age  {#keys}│",
       "keyColor": "magenta",
-      "text": "printf \"\\e[0m%s days\\e[0m\" \"$(( ($(date +%s) - $(stat -c %W /)) / 86400 ))\""
+      "text": "printf \"\\e[0m%s days\\e[0m\" \"$(( ($(date +%s) - $(stat -c %W /)) / 86400 ))\"",
     },
     {
       "key": "│ {#34}󰅐 uptime  {#keys}│",
-      "type": "uptime"
+      "type": "uptime",
     },
     {
       "key": "│ {#34}{icon} distro  {#keys}│",
-      "type": "os"
+      "type": "os",
     },
     {
       "key": "│ {#34} kernel  {#keys}│",
-      "type": "kernel"
+      "type": "kernel",
     },
     {
       "key": "│ {#34} wm      {#keys}│",
-      "type": "wm"
+      "type": "wm",
     },
     {
       "key": "│ {#34}󰇄 desktop {#keys}│",
-      "type": "de"
+      "type": "de",
     },
     {
       "key": "│ {#34} term    {#keys}│",
-      "type": "terminal"
+      "type": "terminal",
     },
     {
       "key": "│ {#34} shell   {#keys}│",
-      "type": "shell"
+      "type": "shell",
     },
     {
       "key": "├───────────┤",
-      "type": "custom"
+      "type": "custom",
     },
     {
       "key": "│ {#34}󰍛 cpu     {#keys}│",
       "type": "cpu",
-      "showPeCoreCount": true
+      "showPeCoreCount": true,
     },
     {
       "key": "│ {#34}󰉉 disk    {#keys}│",
       "type": "disk",
-      "folders": "/"
+      "folders": "/",
     },
     {
       "key": "│ {#34} memory  {#keys}│",
-      "type": "memory"
+      "type": "memory",
     },
     {
       "key": "├───────────┤",
-      "type": "custom"
+      "type": "custom",
     },
     {
       "key": "│ {#34} colors  {#keys}│",
       "type": "colors",
-      "symbol": "circle"
+      "symbol": "circle",
     },
     {
       "key": "╰───────────╯",
-      "type": "custom"
-    }
-  ]
+      "type": "custom",
+    },
+  ],
 }

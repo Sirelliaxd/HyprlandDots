@@ -2,7 +2,7 @@
 
 ## Screenshots
 
-*todo*
+_todo_
 
 ## 1.Dependencies
 
@@ -10,7 +10,7 @@ packages needed/utilized by this config.
 
 - ##### 1.1 base
 
-`sudo pacman -S needed hyprland kitty hyprpaper fish waybar fish mako cliphist rofi rofi-emoji wl-clipboard yazi nwg-dock-hyprland`
+`sudo pacman -S needed hyprland kitty hyprpaper fish waybar fish mako cliphist rofi rofi-emoji wl-clipboard yazi nwg-dock-hyprland jq`
 
 - ##### 1.2 fonts
 

@@ -18,6 +18,7 @@ alias cppformatgoogle '~/.local/share/nvim/mason/bin/clang-format --style Google
 alias cppformatGNU '~/.local/share/nvim/mason/bin/clang-format --style GNU --dump-config > .clang-format'
 alias typtea 'typtea start --duration 60 --lang'
 alias bt bluetui
+alias neofetch fastfetch
 
 set -x EDITOR nvim
 
