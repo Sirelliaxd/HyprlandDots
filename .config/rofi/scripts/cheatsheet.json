@@ -11,7 +11,8 @@
       { "cmd": "MOD + Q", "desc": "Open terminal" },
       { "cmd": "MOD + R", "desc": "Open application launcher" },
       { "cmd": "MOD + F", "desc": "Open Zen Browser" },
-      { "cmd": "MOD + E", "desc": "Open Yazi file manager" }
+      { "cmd": "MOD + E", "desc": "Open Yazi file manager" },
+      { "cmd": "MOD + N", "desc": "Open Notes (Neorg)" }
     ],
 
     "Window Controls": [

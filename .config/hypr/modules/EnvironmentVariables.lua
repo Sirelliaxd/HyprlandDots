@@ -16,3 +16,5 @@ hl.env("LIBVA_DRIVER_NAME", "nvidia")
 -- env = WLR_DRM_DEVICES,$HOME/.config/hypr/cardNvidia:$HOME/.config/hypr/cardIntel
 -- hl.env("WLR_DRM_DEVICES", "$HOME/.config/hypr/cardNvidia:$HOME/.config/hypr/cardIntel")
 hl.env("AQ_DRM_DEVICES", "/dev/dri/card1:/dev/dri/card2")
+
+hl.config({ xwayland = { force_zero_scaling = true } })

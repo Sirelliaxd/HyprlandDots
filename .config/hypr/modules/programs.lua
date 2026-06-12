@@ -8,6 +8,8 @@ FileManager = "kitty yazi"
 Menu = "rofi -show drun"
 Browser = "zen-browser"
 SecondaryBrowser = "qutebrowser"
+Notes = "kitty nvim ~/Notes/"
+ScreenShot = "hyprshot -m region"
 
 -- { AUTOSTART }
 hl.on("hyprland.start", function()

@@ -19,12 +19,16 @@ hl.bind(mainMod .. " + C", hl.dsp.window.close())
 -- { reload waybar }
 hl.bind(mainMod .. " + W", hl.dsp.exec_cmd("killall waybar & pkill cava && waybar"))
 
+-- { screenshot }
+hl.bind(mainMod .. " + SHIFT + S ", hl.dsp.exec_cmd(ScreenShot))
+
 -- { launch app }
 hl.bind(mainMod .. " + Q", hl.dsp.exec_cmd(Terminal))
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(FileManager))
 hl.bind(mainMod .. " + R", hl.dsp.exec_cmd(Menu))
 hl.bind(mainMod .. " + F", hl.dsp.exec_cmd(Browser))
 hl.bind(mainMod .. " + G", hl.dsp.exec_cmd(SecondaryBrowser))
+hl.bind(mainMod .. " + N", hl.dsp.exec_cmd(Notes))
 
 -- { toggle floating }
 hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
