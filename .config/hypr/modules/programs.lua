@@ -7,9 +7,10 @@ Terminal = "kitty"
 FileManager = "kitty yazi"
 Menu = "rofi -show drun"
 Browser = "zen-browser"
-SecondaryBrowser = "qutebrowser"
+SecondaryBrowser = "librewolf"
 Notes = "kitty nvim ~/Notes/"
 ScreenShot = "hyprshot -m region"
+ScreenShotNoSave = "hyprshot -m region --clipboard-only"
 
 -- { AUTOSTART }
 hl.on("hyprland.start", function()
@@ -19,5 +20,6 @@ hl.on("hyprland.start", function()
 	hl.exec_cmd("pipewire & pipewire-pulse")
 	hl.exec_cmd("wireplumber")
 	hl.exec_cmd("waybar")
+	hl.exec_cmd("gnome-keyring-daemon --start --components=secrets")
 	--	hl.exec_cmd("nwg-dock-hyprland -d -i 40")
 end)

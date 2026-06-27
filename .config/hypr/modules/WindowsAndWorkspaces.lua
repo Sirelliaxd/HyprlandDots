@@ -73,7 +73,7 @@ hl.layer_rule({
 	match = { namespace = "notifications" },
 
 	blur = true,
-	ignore_alpha = true,
+	ignore_alpha = false,
 })
 
 -- { rofi blur & disable animations}
@@ -93,3 +93,10 @@ hl.layer_rule({
 	ignore_alpha = 0,
 	no_anim = true,
 })
+
+-- hl.layer_rule({
+-- 	match = { class = "notifications" },
+--
+-- 	blur = true,
+-- 	ignore_alpha = 0,
+-- })

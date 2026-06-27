@@ -7,7 +7,7 @@ local mainMod = "SUPER"
 
 --  { close Hyprland }
 hl.bind(
-	mainMod .. " + M",
+	mainMod .. " + SHIFT + M",
 	hl.dsp.exec_cmd("command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch 'hl.dsp.exit()'")
 )
 
@@ -21,6 +21,7 @@ hl.bind(mainMod .. " + W", hl.dsp.exec_cmd("killall waybar & pkill cava && wayba
 
 -- { screenshot }
 hl.bind(mainMod .. " + SHIFT + S ", hl.dsp.exec_cmd(ScreenShot))
+hl.bind("ALT + SHIFT + S ", hl.dsp.exec_cmd(ScreenShotNoSave))
 
 -- { launch app }
 hl.bind(mainMod .. " + Q", hl.dsp.exec_cmd(Terminal))
@@ -33,10 +34,22 @@ hl.bind(mainMod .. " + N", hl.dsp.exec_cmd(Notes))
 -- { toggle floating }
 hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
 
+-- { layouts }
+hl.bind(mainMod .. " + backslash", function()
+	hl.config({ general = { layout = "dwindle" } })
+end)
+hl.bind(mainMod .. " + bracketright", function()
+	hl.config({ general = { layout = "master" } })
+end)
+hl.bind(mainMod .. " + bracketleft", function()
+	hl.config({ general = { layout = "scrolling" } })
+end)
+
 ---     ##### [ ROFI ] #####
 hl.bind(mainMod .. " + period", hl.dsp.exec_cmd("~/.config/rofi/scripts/emoji-selector.sh"))
 hl.bind(mainMod .. " + X", hl.dsp.exec_cmd("~/.config/rofi/scripts/clipboard.sh"))
 hl.bind("XF86Presentation", hl.dsp.exec_cmd("~/.config/rofi/scripts/cheatsheet.sh"))
+hl.bind(mainMod .. " + A", hl.dsp.exec_cmd("~/.config/rofi/scripts/wallpaper-picker.sh"))
 
 ---     ##### [ WINDOWS ] #####
 
@@ -75,6 +88,9 @@ hl.bind("F11", hl.dsp.window.fullscreen())
 hl.bind(mainMod .. " + mouse:272", hl.dsp.window.drag(), { mouse = true })
 hl.bind(mainMod .. " + mouse:273", hl.dsp.window.resize(), { mouse = true })
 
+-- { Resize windows with MOD + SHIFT + - / =}
+hl.bind(mainMod .. " + SHIFT + equal", hl.dsp.window.resize({ x = 5, y = 0 }), { repeating = true })
+hl.bind(mainMod .. " + SHIFT + minus", hl.dsp.window.resize({ x = -5, y = 0 }), { repeating = true })
 ---     ##### [ WORKSPACES ] #####
 
 -- { witch workspaces with mainMod + [0-9] }

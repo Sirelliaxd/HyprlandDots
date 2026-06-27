@@ -7,7 +7,8 @@ hl.monitor({
 	output = "desc:Chimei Innolux Corporation 0x1521",
 	mode = "1920x1080@144.00301",
 	position = "1920x0",
-	scale = 1.2,
+	-- scale = 1.2,
+	scale = 1.4,
 })
 
 -- { AOC 27G2G4}

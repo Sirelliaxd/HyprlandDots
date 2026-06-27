@@ -4,7 +4,7 @@
 @define-color module-border rgba(95, 76, 95, 0.70);
 @define-color tooltip-bg    @module-bg;
 @define-color inactive      #787c99;
-@define-color fg            #beb0bf;
+@define-color fg            #e6e6e8;
 @define-color workspace-fg  @fg;
 
 @define-color red           #f7768e;

@@ -57,8 +57,13 @@ require("modules.monitors")
 ---Wiki: https://wiki.hypr.land/Configuring/Environment-variables/
 require("modules.EnvironmentVariables")
 
------       PERMISSIONS        -----
+-----         PERMISSIONS          -----
 ---
 ---	hyprland permissions settings
 ---Wiki: https://wiki.hypr.land/Configuring/Permissions/
 require("modules.permissions")
+
+-----           Lauout             -----
+---
+--- window layouts
+require("modules.layout")

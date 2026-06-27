@@ -6,7 +6,7 @@ end
 # --- ALIASES -------------------------------------------
 
 alias ls 'eza --icons'
-alias matrix 'cmatrix -s 96'
+alias matrix 'cmatrix -s 96 -C white'
 alias anime ani-cli
 alias ff fastfetch
 alias taskmanager btop
@@ -16,6 +16,7 @@ alias tree 'eza --tree -L 2 --ignore-glob=.git'
 alias typtea 'typtea start --duration 60 --lang'
 alias bt bluetui
 alias neofetch fastfetch
+alias y yazi
 
 alias audiofix 'wireplumber & disown'
 
@@ -29,6 +30,8 @@ alias dotsconf 'nvim ~/dotfiles/.config/'
 alias neorg 'cd ~/Notes/ & nvim'
 
 alias claudelc 'ANTHROPIC_AUTH_TOKEN=ollama ANTHROPIC_API_KEY="" ANTHROPIC_BASE_URL=http://localhost:11434 claude --model hf.co/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF:Q4_K_M'
+
+alias i2prouter '~/i2p/i2prouter'
 
 set -x EDITOR nvim
 
@@ -44,3 +47,4 @@ function yazi
     end
     rm -f -- "$tmp"
 end
+

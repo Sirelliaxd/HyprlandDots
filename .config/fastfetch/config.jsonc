@@ -21,16 +21,11 @@
       "key": "╭───────────╮",
       "type": "custom",
     },
-    {
-      "key": "│ {#34} user    {#keys}│",
-      "type": "title",
-      "format": "{user-name}",
-    },
-    {
-      "key": "│ {#34}󰇅 host    {#keys}│",
-      "type": "title",
-      "format": "{host-name}",
-    },
+    // {
+    //   "key": "│ {#34} user    {#keys}│",
+    //   "type": "title",
+    //   "format": "{user-name}",
+    // },
     {
       "type": "command",
       "key": "│ {#34}󱦟 os age  {#keys}│",
