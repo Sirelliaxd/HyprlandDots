@@ -17,7 +17,7 @@ hl.bind(
 hl.bind(mainMod .. " + C", hl.dsp.window.close())
 
 -- { reload waybar }
-hl.bind(mainMod .. " + W", hl.dsp.exec_cmd("killall waybar & pkill cava && waybar"))
+hl.bind(mainMod .. " + W", hl.dsp.exec_cmd("killall waybar && waybar"))
 
 -- { screenshot }
 hl.bind(mainMod .. " + SHIFT + S ", hl.dsp.exec_cmd(ScreenShot))
@@ -26,6 +26,7 @@ hl.bind("ALT + SHIFT + S ", hl.dsp.exec_cmd(ScreenShotNoSave))
 -- { launch app }
 hl.bind(mainMod .. " + Q", hl.dsp.exec_cmd(Terminal))
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(FileManager))
+hl.bind(mainMod .. " + M", hl.dsp.exec_cmd("env WEBKIT_DISABLE_DMABUF_RENDERER=1 cinny"))
 hl.bind(mainMod .. " + R", hl.dsp.exec_cmd(Menu))
 hl.bind(mainMod .. " + F", hl.dsp.exec_cmd(Browser))
 hl.bind(mainMod .. " + G", hl.dsp.exec_cmd(SecondaryBrowser))
@@ -83,6 +84,7 @@ hl.bind(mainMod .. " + SHIFT + J", hl.dsp.window.move({ direction = "down" }))
 
 -- { toggle fullscreen }
 hl.bind("F11", hl.dsp.window.fullscreen())
+hl.bind(mainMod .. " + SHIFT + 0", hl.dsp.window.fullscreen())
 
 -- { Move/resize windows with mainMod + LMB/RMB and dragging }
 hl.bind(mainMod .. " + mouse:272", hl.dsp.window.drag(), { mouse = true })

@@ -17,6 +17,7 @@ alias typtea 'typtea start --duration 60 --lang'
 alias bt bluetui
 alias neofetch fastfetch
 alias y yazi
+alias sy 'sudo yazi'
 
 alias audiofix 'wireplumber & disown'
 
@@ -47,4 +48,10 @@ function yazi
     end
     rm -f -- "$tmp"
 end
+
+
+
+
+
+
 

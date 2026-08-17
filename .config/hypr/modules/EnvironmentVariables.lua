@@ -34,4 +34,4 @@ hl.env("AQ_DRM_DEVICES", "/dev/dri/card1:/dev/dri/card2")
 -- ###{HYPRSHOT DIR}
 hl.env("HYPRSHOT_DIR", "/home/stella/Pictures/Screenshots/")
 
-hl.config({ xwayland = { force_zero_scaling = true } })
+-- hl.config({ xwayland = { force_zero_scaling = true } })
