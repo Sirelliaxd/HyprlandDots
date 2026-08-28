@@ -5,7 +5,7 @@ end
 
 # --- ALIASES -------------------------------------------
 
-alias ls 'eza --icons'
+alias ls 'eza --icons auto'
 alias matrix 'cmatrix -s 96 -C white'
 alias anime ani-cli
 alias ff fastfetch
@@ -48,10 +48,3 @@ function yazi
     end
     rm -f -- "$tmp"
 end
-
-
-
-
-
-
-
