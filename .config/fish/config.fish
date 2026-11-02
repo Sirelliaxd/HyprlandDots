@@ -18,6 +18,7 @@ alias bt bluetui
 alias neofetch fastfetch
 alias y yazi
 alias sy 'sudo yazi'
+alias torlink 'npx torlnk'
 
 alias audiofix 'wireplumber & disown'
 

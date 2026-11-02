@@ -44,6 +44,9 @@ hl.window_rule({
 	-- opacity = "0.85 0.75",
 })
 
+hl.window_rule({ match = { class = "com.gabm.satty" }, float = true })
+hl.window_rule({ match = { class = "com.gabm.satty" }, size = "100% 100%" })
+
 -- { alow opacity on zen }
 hl.window_rule({
 	name = "zen-opacity",

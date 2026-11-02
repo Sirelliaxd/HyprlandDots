@@ -7,10 +7,13 @@ Terminal = "kitty"
 FileManager = "kitty yazi"
 Menu = "rofi -show drun"
 Browser = "zen-browser"
-SecondaryBrowser = "librewolf"
+SecondaryBrowser = "brave"
+ThirdBrowser = "librewolf"
 Notes = "kitty nvim ~/Notes/"
 ScreenShot = "hyprshot -m region"
 ScreenShotNoSave = "hyprshot -m region --clipboard-only"
+ScreenShotAlt = 'grim -g "$(slurp)" -t ppm - | satty --filename - --fullscreen'
+NotesAlt = "obsidian"
 
 -- { AUTOSTART }
 hl.on("hyprland.start", function()

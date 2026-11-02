@@ -20,18 +20,21 @@ hl.bind(mainMod .. " + C", hl.dsp.window.close())
 hl.bind(mainMod .. " + W", hl.dsp.exec_cmd("killall waybar && waybar"))
 
 -- { screenshot }
-hl.bind(mainMod .. " + SHIFT + S ", hl.dsp.exec_cmd(ScreenShot))
-hl.bind("ALT + SHIFT + S ", hl.dsp.exec_cmd(ScreenShotNoSave))
+hl.bind(mainMod .. " + SHIFT + S", hl.dsp.exec_cmd(ScreenShotAlt))
+hl.bind(mainMod .. " + S", hl.dsp.exec_cmd(ScreenShot))
+hl.bind("ALT + SHIFT + S", hl.dsp.exec_cmd(ScreenShotNoSave))
 
 -- { launch app }
 hl.bind(mainMod .. " + Q", hl.dsp.exec_cmd(Terminal))
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(FileManager))
--- hl.bind(mainMod .. " + M", hl.dsp.exec_cmd("env WEBKIT_DISABLE_DMABUF_RENDERER=1 cinny"))
-hl.bind(mainMod .. " + M", hl.dsp.exec_cmd("element-desktop --proxy-server=socks5://127.0.0.1:9050"))
+hl.bind(mainMod .. " + M", hl.dsp.exec_cmd("env WEBKIT_DISABLE_DMABUF_RENDERER=1 cinny"))
+-- hl.bind(mainMod .. " + M", hl.dsp.exec_cmd("element-desktop --proxy-server=socks5://127.0.0.1:9050"))
 hl.bind(mainMod .. " + R", hl.dsp.exec_cmd(Menu))
 hl.bind(mainMod .. " + F", hl.dsp.exec_cmd(Browser))
-hl.bind(mainMod .. " + G", hl.dsp.exec_cmd(SecondaryBrowser))
+hl.bind(mainMod .. " + B", hl.dsp.exec_cmd(SecondaryBrowser))
+hl.bind(mainMod .. " + G", hl.dsp.exec_cmd(ThirdBrowser))
 hl.bind(mainMod .. " + N", hl.dsp.exec_cmd(Notes))
+hl.bind(mainMod .. " + SHIFT + N", hl.dsp.exec_cmd(NotesAlt))
 
 -- { toggle floating }
 hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
