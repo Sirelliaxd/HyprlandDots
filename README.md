@@ -1,9 +1,9 @@
 # HyprlandDots
 
 ## Screenshots
+![image](.config/assets/1.png)
 ![image](.config/assets/2.png)
 ![image](.config/assets/3.png)
-![image](.config/assets/4.png)
 
 
 ## 1.Dependencies
