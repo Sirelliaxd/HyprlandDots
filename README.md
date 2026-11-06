@@ -22,3 +22,5 @@ packages needed/utilized by this config.
 
 `sudo pacman -S gocheat fastfetch eza cmatrix stow bluetui nmtui cava pipemixer`
 `yay -S gocheat ani-cli cloudflare-speed-cli`
+
+saya no uta corsor pack by @m370lanza on X
